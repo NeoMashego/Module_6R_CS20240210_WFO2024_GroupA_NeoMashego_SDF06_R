@@ -201,7 +201,7 @@ img {
 .loader {
     width: 3rem;
     height: 3rem;
-    border: 0.4rem solid #999;
+    border: 0.4rem solid #adb5bd;
     border-bottom-color: transparent;
     border-radius: 50%;
     margin: 0 auto;
