@@ -28,6 +28,12 @@ img {
     display: flex;
 }
 
+.profile-image {
+    margin-right: 5em;
+    border: 10px solid #262626;
+    border-radius: 40em;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: 20em 20em 20em;
