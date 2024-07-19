@@ -199,9 +199,9 @@ img {
 /* loader section */
 
 .loader {
-    width: 5rem;
-    height: 5rem;
-    border: 0.6rem solid #999;
+    width: 3rem;
+    height: 3rem;
+    border: 0.4rem solid #999;
     border-bottom-color: transparent;
     border-radius: 50%;
     margin: 0 auto;
