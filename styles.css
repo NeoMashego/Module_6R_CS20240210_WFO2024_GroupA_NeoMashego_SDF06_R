@@ -21,3 +21,7 @@ body {
 img {
     display: block;
 }
+
+.profile {
+    display: flex;
+}
