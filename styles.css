@@ -26,6 +26,11 @@ img {
     display: flex;
 }
 
+.gallery {
+    grid-template-columns: repeat(3, 20px [col-start]);
+    grid-template-rows: repeat(3, 20px [row-start]); 
+}
+
 .gallery-image {
     position: relative;
     width: 50em;
