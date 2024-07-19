@@ -25,3 +25,9 @@ img {
 .profile {
     display: flex;
 }
+
+.gallery-image {
+    position: relative;
+    width: 50em;
+    height: auto;
+}
