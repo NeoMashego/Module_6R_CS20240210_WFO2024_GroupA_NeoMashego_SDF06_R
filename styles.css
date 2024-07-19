@@ -34,6 +34,18 @@ img {
     border-radius: 40em;
 }
 
+.profile-user-settings {
+    display: inline-block;
+}
+
+.profile-status {
+    display: inline-block;
+}
+
+.profile-bio {
+    display: inline-block;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: 20em 20em 20em;
