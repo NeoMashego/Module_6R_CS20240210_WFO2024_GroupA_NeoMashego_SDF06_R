@@ -27,8 +27,13 @@ img {
 }
 
 .gallery {
-    grid-template-columns: repeat(3, 20px [col-start]);
-    grid-template-rows: repeat(3, 20px [row-start]); 
+    display: grid;
+    grid-template-columns: 20em 20em 20em;
+    grid-template-rows: 50em 50em 50em;
+    column-gap: 10px;
+    row-gap: 15px;
+    position: absolute;
+    justify-content: center;
 }
 
 .gallery-image {
