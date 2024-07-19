@@ -53,6 +53,62 @@ img {
 
 /* container 1*/
 
+.profile {
+    padding: 5rem 0;
+}
+
+.profile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile-image {
+    float: left;
+    display: flex;
+    margin-right: 5rem;
+    border: 6px solid #264653;
+    border-radius: 40rem;
+}
+
+.profile-image img {
+    border-radius: 50%;
+}
+
+.profile-user-settings,
+.profile-stats,
+.profile-bio {
+    float: right;
+    display: flex;
+}
+
+.profile-user-settings {
+    margin-top: 1.1rem;
+}
+
+.profile-user-name {
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.profile-edit-btn {
+    font-size: 1.4rem;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0rem 2rem;
+    margin-left: 2rem;
+}
+
+.profile-settings-btn {
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.profile-stats {
+    margin-top: 2rem;
+}
+
 /* additional styles
 
 .profile {
