@@ -31,3 +31,16 @@ img {
     width: 50em;
     height: auto;
 }
+
+.gallery-item-info {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-image:hover .gallery-item-info {
+    visibility: visible; opacity: 1;
+}
+
+.gallery-item-type {
+    visibility: none; opacity: 0;
+}
